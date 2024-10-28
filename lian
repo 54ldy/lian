@@ -1,1 +1,7 @@
-# include 
+#include <stdio.h>
+int main()
+{
+	char arr[] = "\\\\abcd\\\\\n\0";
+	printf("%s/n",arr);
+	return 0;
+}
