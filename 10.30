@@ -1,0 +1,8 @@
+#include <stdio.h> 
+int main()
+{
+	char a;
+	a = getchar();
+	printf("ASCII=%d", a);
+	return 0;
+}
